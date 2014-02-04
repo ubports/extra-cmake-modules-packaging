@@ -1,0 +1,6 @@
+extra-cmake-modules (0.0.9-0) trusty; urgency=low
+
+  * Initial release
+  * Add kde-install-dirs.diff to set directories
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Jan 2014 11:35:49 +0000

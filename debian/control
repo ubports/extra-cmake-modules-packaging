@@ -1,0 +1,15 @@
+Source: extra-cmake-modules
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/kdesupport/extra-cmake-modules
+
+Package: extra-cmake-modules
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Extra modules and scripts for CMake
+ A collection of extra modules and scripts for CMake released as part of KDE
+ Frameworks.
