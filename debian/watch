@@ -1,2 +1,2 @@
 version=3
-ftp://ftp.kde.org/pub/kde/unstable/frameworks/([\d\.]*)/extra-cmake-modules-([\d\.]*).tar.xz
+http://download.kde.org/unstable/frameworks/([\d\.]*)/extra-cmake-modules-(.*)\.tar\.xz
