@@ -1,6 +1,7 @@
 extra-cmake-modules (0.0.11-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream alpha release
+  * Rename library package for soname 5
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:13:04 +0000
 
