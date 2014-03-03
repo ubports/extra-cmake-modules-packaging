@@ -1,4 +1,4 @@
-extra-cmake-modules (0.0.10-0ubuntu1) UNRELEASED; urgency=medium
+extra-cmake-modules (0.0.11-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Rohan Garg ]
   * New upstream alpha release
@@ -6,8 +6,9 @@ extra-cmake-modules (0.0.10-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * Add pri install path to ECMGeneratePriFile.cmake in kde-install-
     dirs.diff
+  * New upstream alpha release
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 21:25:45 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 11:07:27 +0000
 
 extra-cmake-modules (0.0.9-0) trusty; urgency=low
 
