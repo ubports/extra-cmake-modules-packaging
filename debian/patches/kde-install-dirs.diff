@@ -1,48 +1,22 @@
-Index: extra-cmake-modules-0.0.10/kde-modules/KDEInstallDirs.cmake
+Index: extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake
 ===================================================================
---- extra-cmake-modules-0.0.10.orig/kde-modules/KDEInstallDirs.cmake	2014-02-05 11:14:29.000000000 +0000
-+++ extra-cmake-modules-0.0.10/kde-modules/KDEInstallDirs.cmake	2014-02-14 15:25:31.000000000 +0000
-@@ -125,15 +125,15 @@
- endif()
- _set_fancy(INCLUDE_INSTALL_DIR       "include/KF5"                                 "The install dir for header files")
+--- extra-cmake-modules-0.0.13.orig/kde-modules/KDEInstallDirs.cmake	2014-05-05 16:11:28.915670800 +0100
++++ extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake	2014-05-05 16:12:28.247672319 +0100
+@@ -206,7 +206,7 @@
+ # this exists as a convenience for frameworks
+ set(KF5_INCLUDE_INSTALL_DIR          "${INCLUDE_INSTALL_DIR}/KF5")
  
 -_set_fancy(QT_PLUGIN_INSTALL_DIR     "${LIB_INSTALL_DIR}/plugins"                  "The install dir where Qt plugins will be installed (default is ${LIB_INSTALL_DIR}/plugins)")
--_set_fancy(PLUGIN_INSTALL_DIR        "${QT_PLUGIN_INSTALL_DIR}/kf5"                "The install dir where plugins (loaded via KPluginLoader) will be installed (default is ${LIB_INSTALL_DIR}/plugins/kf5)")
-+_set_fancy(QT_PLUGIN_INSTALL_DIR     "${LIB_INSTALL_DIR}/qt5/plugins"                  "The install dir where Qt plugins will be installed (default is ${LIB_INSTALL_DIR}/qt5/plugins)")
-+_set_fancy(PLUGIN_INSTALL_DIR        "${QT_PLUGIN_INSTALL_DIR}/kf5"                "The install dir where plugins (loaded via KPluginLoader) will be installed (default is ${LIB_INSTALL_DIR}/qt5/plugins/kf5)")
++_set_fancy(QT_PLUGIN_INSTALL_DIR     "${LIB_INSTALL_DIR}/qt5/plugins"                  "The install dir where Qt plugins will be installed (default is ${LIB_INSTALL_DIR}/plugins)")
+ _set_fancy(PLUGIN_INSTALL_DIR        "${QT_PLUGIN_INSTALL_DIR}"                    "The install dir where framework and application plugins will be installed (default is ${QT_PLUGIN_INSTALL_DIR})")
  _set_fancy(IMPORTS_INSTALL_DIR       "${QT_PLUGIN_INSTALL_DIR}/imports"            "The install dir where QtQuick1 imports will be installed")
  _set_fancy(QML_INSTALL_DIR           "${LIB_INSTALL_DIR}/qml"                      "The install dir where QtQuick2 imports will be installed")
- _set_fancy(CMAKECONFIG_INSTALL_PREFIX "${LIB_INSTALL_DIR}/cmake"                   "The prefix under which packages will create their own subdirectory for their CMake configuration files")
- _set_fancy(DATA_INSTALL_DIR          "${SHARE_INSTALL_PREFIX}"                     "The parent directory where applications can install their data")
--_set_fancy(HTML_INSTALL_DIR          "${SHARE_INSTALL_PREFIX}/doc/HTML"            "The HTML install dir for documentation")
-+_set_fancy(HTML_INSTALL_DIR          "${SHARE_INSTALL_PREFIX}/doc/kde5/HTML"            "The HTML install dir for documentation")
- _set_fancy(ICON_INSTALL_DIR          "${SHARE_INSTALL_PREFIX}/icons"               "The icon install dir (default ${SHARE_INSTALL_PREFIX}/share/icons/)")
--_set_fancy(KCFG_INSTALL_DIR          "${SHARE_INSTALL_PREFIX}/config.kcfg"         "The install dir for kconfig files")
-+_set_fancy(KCFG_INSTALL_DIR          "${SHARE_INSTALL_PREFIX}/kde5/config.kcfg"         "The install dir for kconfig files")
- _set_fancy(LOCALE_INSTALL_DIR        "${SHARE_INSTALL_PREFIX}/locale"              "The install dir for translations")
- _set_fancy(SERVICES_INSTALL_DIR      "${SHARE_INSTALL_PREFIX}/kde5/services"       "The install dir for service (desktop, protocol, ...) files")
- _set_fancy(SERVICETYPES_INSTALL_DIR  "${SHARE_INSTALL_PREFIX}/kde5/servicetypes"   "The install dir for servicestypes desktop files")
-@@ -146,8 +146,8 @@
+@@ -229,7 +229,7 @@
  _set_fancy(XDG_DIRECTORY_INSTALL_DIR "${SHARE_INSTALL_PREFIX}/desktop-directories" "The XDG directory")
  _set_fancy(XDG_MIME_INSTALL_DIR      "${SHARE_INSTALL_PREFIX}/mime/packages"       "The install dir for the xdg mimetypes")
  
 -_set_fancy(SYSCONF_INSTALL_DIR       "etc"                                         "The sysconfig install dir (default etc)")
--_set_fancy(CONFIG_INSTALL_DIR        "${SYSCONF_INSTALL_DIR}/xdg"                  "The config file install dir")
 +_set_fancy(SYSCONF_INSTALL_DIR       "/etc"                                         "The sysconfig install dir (default etc)")
-+_set_fancy(CONFIG_INSTALL_DIR        "/usr/share/kde5/config"                  "The config file install dir")
+ _set_fancy(CONFIG_INSTALL_DIR        "${SYSCONF_INSTALL_DIR}/xdg"                  "The config file install dir")
  _set_fancy(AUTOSTART_INSTALL_DIR     "${CONFIG_INSTALL_DIR}/autostart"             "The install dir for autostart files")
  _set_fancy(MAN_INSTALL_DIR           "${SHARE_INSTALL_PREFIX}/man"                 "The man install dir (default ${SHARE_INSTALL_PREFIX}/man)")
- 
-Index: extra-cmake-modules-0.0.10/modules/ECMGeneratePriFile.cmake
-===================================================================
---- extra-cmake-modules-0.0.10.orig/modules/ECMGeneratePriFile.cmake	2014-02-05 11:14:29.000000000 +0000
-+++ extra-cmake-modules-0.0.10/modules/ECMGeneratePriFile.cmake	2014-02-14 15:31:33.704635001 +0000
-@@ -28,7 +28,7 @@
- 
- # This default value makes "installing qt and this lib into the same prefix" work out of the box.
- # Packagers who use -DCMAKE_INSTALL_PREFIX=/usr will certainly want to set ECM_MKSPECS_INSTALL_DIR to something like share/qt5/mkspecs/modules
--set(ECM_MKSPECS_INSTALL_DIR mkspecs/modules CACHE PATH "The directory where mkspecs will be installed to.")
-+set(ECM_MKSPECS_INSTALL_DIR share/qt5/mkspecs/modules CACHE PATH "The directory where mkspecs will be installed to.")
- 
- function(ECM_GENERATE_PRI_FILE)
-   set(options )
