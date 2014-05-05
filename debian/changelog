@@ -1,9 +1,10 @@
-extra-cmake-modules (0.0.12-0ubuntu1) UNRELEASED; urgency=medium
+extra-cmake-modules (0.0.13-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream beta release
   * Add build-dep on qttools5-dev
+  * New upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:21:46 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 12:09:34 +0100
 
 extra-cmake-modules (0.0.11-0ubuntu1) trusty; urgency=medium
 
