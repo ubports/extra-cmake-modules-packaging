@@ -1,7 +1,7 @@
 Index: extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake
 ===================================================================
---- extra-cmake-modules-0.0.13.orig/kde-modules/KDEInstallDirs.cmake	2014-05-05 16:11:28.915670800 +0100
-+++ extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake	2014-05-05 16:12:28.247672319 +0100
+--- extra-cmake-modules-0.0.13.orig/kde-modules/KDEInstallDirs.cmake	2014-05-04 20:59:53.000000000 +0100
++++ extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake	2014-05-06 11:13:37.000000000 +0100
 @@ -206,7 +206,7 @@
  # this exists as a convenience for frameworks
  set(KF5_INCLUDE_INSTALL_DIR          "${INCLUDE_INSTALL_DIR}/KF5")
@@ -20,3 +20,16 @@ Index: extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake
  _set_fancy(CONFIG_INSTALL_DIR        "${SYSCONF_INSTALL_DIR}/xdg"                  "The config file install dir")
  _set_fancy(AUTOSTART_INSTALL_DIR     "${CONFIG_INSTALL_DIR}/autostart"             "The install dir for autostart files")
  _set_fancy(MAN_INSTALL_DIR           "${SHARE_INSTALL_PREFIX}/man"                 "The man install dir (default ${SHARE_INSTALL_PREFIX}/man)")
+Index: extra-cmake-modules-0.0.13/modules/ECMGeneratePriFile.cmake
+===================================================================
+--- extra-cmake-modules-0.0.13.orig/modules/ECMGeneratePriFile.cmake	2014-05-04 20:59:53.000000000 +0100
++++ extra-cmake-modules-0.0.13/modules/ECMGeneratePriFile.cmake	2014-05-06 11:13:59.295524103 +0100
+@@ -82,7 +82,7 @@
+ # (To distribute this file outside of extra-cmake-modules, substitute the full
+ #  License text for the above reference.)
+ 
+-set(ECM_MKSPECS_INSTALL_DIR mkspecs/modules CACHE PATH "The directory where mkspecs will be installed to.")
++set(ECM_MKSPECS_INSTALL_DIR share/qt5/mkspecs/modules CACHE PATH "The directory where mkspecs will be installed to.")
+ 
+ function(ECM_GENERATE_PRI_FILE)
+   set(options )
