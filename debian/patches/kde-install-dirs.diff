@@ -1,7 +1,7 @@
 Index: extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake
 ===================================================================
 --- extra-cmake-modules-0.0.13.orig/kde-modules/KDEInstallDirs.cmake	2014-05-04 20:59:53.000000000 +0100
-+++ extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake	2014-05-06 11:13:37.000000000 +0100
++++ extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake	2014-05-16 10:22:36.000000000 +0100
 @@ -206,7 +206,7 @@
  # this exists as a convenience for frameworks
  set(KF5_INCLUDE_INSTALL_DIR          "${INCLUDE_INSTALL_DIR}/KF5")
@@ -23,13 +23,13 @@ Index: extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake
 Index: extra-cmake-modules-0.0.13/modules/ECMGeneratePriFile.cmake
 ===================================================================
 --- extra-cmake-modules-0.0.13.orig/modules/ECMGeneratePriFile.cmake	2014-05-04 20:59:53.000000000 +0100
-+++ extra-cmake-modules-0.0.13/modules/ECMGeneratePriFile.cmake	2014-05-06 11:13:59.295524103 +0100
++++ extra-cmake-modules-0.0.13/modules/ECMGeneratePriFile.cmake	2014-05-16 10:27:18.258307113 +0100
 @@ -82,7 +82,7 @@
  # (To distribute this file outside of extra-cmake-modules, substitute the full
  #  License text for the above reference.)
  
 -set(ECM_MKSPECS_INSTALL_DIR mkspecs/modules CACHE PATH "The directory where mkspecs will be installed to.")
-+set(ECM_MKSPECS_INSTALL_DIR share/qt5/mkspecs/modules CACHE PATH "The directory where mkspecs will be installed to.")
++set(ECM_MKSPECS_INSTALL_DIR ${LIB_INSTALL_DIR}/qt5/mkspecs/modules CACHE PATH "The directory where mkspecs will be installed to.")
  
  function(ECM_GENERATE_PRI_FILE)
    set(options )
