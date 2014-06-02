@@ -1,7 +1,12 @@
 extra-cmake-modules (0.0.14-0ubuntu1~ubuntu14.04~ppa2) trusty; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
   * Update kde-install-dirs.diff
+
+  [ Scarlett Clark ]
+  * Bump depends versions
+  * Bump depends versions
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:32:41 +0100
 
