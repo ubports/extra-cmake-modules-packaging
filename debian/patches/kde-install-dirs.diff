@@ -1,34 +1,40 @@
-Index: extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake
+Index: extra-cmake-modules-0.0.14/kde-modules/KDEInstallDirs.cmake
 ===================================================================
---- extra-cmake-modules-0.0.13.orig/kde-modules/KDEInstallDirs.cmake	2014-05-04 20:59:53.000000000 +0100
-+++ extra-cmake-modules-0.0.13/kde-modules/KDEInstallDirs.cmake	2014-05-20 16:37:10.903250067 +0100
-@@ -206,10 +206,10 @@
- # this exists as a convenience for frameworks
- set(KF5_INCLUDE_INSTALL_DIR          "${INCLUDE_INSTALL_DIR}/KF5")
+--- extra-cmake-modules-0.0.14.orig/kde-modules/KDEInstallDirs.cmake	2014-06-02 13:54:35.539085640 +0100
++++ extra-cmake-modules-0.0.14/kde-modules/KDEInstallDirs.cmake	2014-06-02 13:56:05.307087938 +0100
+@@ -323,16 +323,16 @@
+     CMAKECONFIG_INSTALL_PREFIX)
  
--_set_fancy(QT_PLUGIN_INSTALL_DIR     "${LIB_INSTALL_DIR}/plugins"                  "The install dir where Qt plugins will be installed (default is ${LIB_INSTALL_DIR}/plugins)")
-+_set_fancy(QT_PLUGIN_INSTALL_DIR     "${LIB_INSTALL_DIR}/qt5/plugins"                  "The install dir where Qt plugins will be installed (default is ${LIB_INSTALL_DIR}/plugins)")
- _set_fancy(PLUGIN_INSTALL_DIR        "${QT_PLUGIN_INSTALL_DIR}"                    "The install dir where framework and application plugins will be installed (default is ${QT_PLUGIN_INSTALL_DIR})")
--_set_fancy(IMPORTS_INSTALL_DIR       "${QT_PLUGIN_INSTALL_DIR}/imports"            "The install dir where QtQuick1 imports will be installed")
--_set_fancy(QML_INSTALL_DIR           "${LIB_INSTALL_DIR}/qml"                      "The install dir where QtQuick2 imports will be installed")
-+_set_fancy(IMPORTS_INSTALL_DIR       "${LIB_INSTALL_DIR}/qt5/imports"            "The install dir where QtQuick1 imports will be installed")
-+_set_fancy(QML_INSTALL_DIR           "${LIB_INSTALL_DIR}/qt5/qml"                      "The install dir where QtQuick2 imports will be installed")
- _set_fancy(CMAKECONFIG_INSTALL_PREFIX "${LIB_INSTALL_DIR}/cmake"                   "The prefix under which packages will create their own subdirectory for their CMake configuration files")
- _set_fancy(DATA_INSTALL_DIR          "${SHARE_INSTALL_PREFIX}"                     "The parent directory where applications can install their data")
- _set_fancy(KF5_DATA_INSTALL_DIR      "${DATA_INSTALL_DIR}/kf5"                     "The parent directory where frameworks can install their data")
-@@ -229,7 +229,7 @@
- _set_fancy(XDG_DIRECTORY_INSTALL_DIR "${SHARE_INSTALL_PREFIX}/desktop-directories" "The XDG directory")
- _set_fancy(XDG_MIME_INSTALL_DIR      "${SHARE_INSTALL_PREFIX}/mime/packages"       "The install dir for the xdg mimetypes")
+ # Qt-specific vars
+-_define_relative(QTPLUGINDIR LIBDIR "plugins"
++_define_relative(QTPLUGINDIR LIBDIR "qt5/plugins"
+     "Qt plugins"
+     QT_PLUGIN_INSTALL_DIR)
+ _define_relative(PLUGINDIR QTPLUGINDIR ""
+     "Plugins"
+     PLUGIN_INSTALL_DIR)
+-_define_relative(QTQUICKIMPORTSDIR QTPLUGINDIR "imports"
++_define_relative(QTQUICKIMPORTSDIR QTPLUGINDIR "qt5/imports"
+     "QtQuick1 imports"
+     IMPORTS_INSTALL_DIR)
+-_define_relative(QMLDIR LIBDIR "qml"
++_define_relative(QMLDIR LIBDIR "qt5/qml"
+     "QtQuick2 imports"
+     QML_INSTALL_DIR)
  
--_set_fancy(SYSCONF_INSTALL_DIR       "etc"                                         "The sysconfig install dir (default etc)")
-+_set_fancy(SYSCONF_INSTALL_DIR       "/etc"                                         "The sysconfig install dir (default etc)")
- _set_fancy(CONFIG_INSTALL_DIR        "${SYSCONF_INSTALL_DIR}/xdg"                  "The config file install dir")
- _set_fancy(AUTOSTART_INSTALL_DIR     "${CONFIG_INSTALL_DIR}/autostart"             "The install dir for autostart files")
- _set_fancy(MAN_INSTALL_DIR           "${SHARE_INSTALL_PREFIX}/man"                 "The man install dir (default ${SHARE_INSTALL_PREFIX}/man)")
-Index: extra-cmake-modules-0.0.13/modules/ECMGeneratePriFile.cmake
+@@ -432,7 +432,7 @@
+ 
+ 
+ 
+-_define_absolute(SYSCONFDIR "etc"
++_define_absolute(SYSCONFDIR "/etc"
+     "read-only single-machine data"
+     SYSCONF_INSTALL_DIR)
+ _define_relative(CONFDIR SYSCONFDIR "xdg"
+Index: extra-cmake-modules-0.0.14/modules/ECMGeneratePriFile.cmake
 ===================================================================
---- extra-cmake-modules-0.0.13.orig/modules/ECMGeneratePriFile.cmake	2014-05-04 20:59:53.000000000 +0100
-+++ extra-cmake-modules-0.0.13/modules/ECMGeneratePriFile.cmake	2014-05-16 10:27:18.258307113 +0100
+--- extra-cmake-modules-0.0.14.orig/modules/ECMGeneratePriFile.cmake	2014-06-02 13:54:35.539085640 +0100
++++ extra-cmake-modules-0.0.14/modules/ECMGeneratePriFile.cmake	2014-06-02 13:54:35.539085640 +0100
 @@ -82,7 +82,7 @@
  # (To distribute this file outside of extra-cmake-modules, substitute the full
  #  License text for the above reference.)
