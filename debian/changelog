@@ -1,3 +1,9 @@
+extra-cmake-modules (0.0.14-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:32:41 +0100
+
 extra-cmake-modules (0.0.13-0ubuntu1~ubuntu14.04~ppa5) trusty; urgency=medium
 
   * Update kde-install-dirs.diff to install .pri files in arch dependent path
