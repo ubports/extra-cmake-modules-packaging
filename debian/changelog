@@ -1,4 +1,4 @@
-extra-cmake-modules (0.0.14-0ubuntu1~ubuntu14.04~ppa1) trusty; urgency=medium
+extra-cmake-modules (0.0.14-0ubuntu1~ubuntu14.04~ppa2) trusty; urgency=medium
 
   * New upstream beta release
   * Update kde-install-dirs.diff
