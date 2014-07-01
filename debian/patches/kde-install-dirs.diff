@@ -1,8 +1,8 @@
-Index: extra-cmake-modules-0.0.14/kde-modules/KDEInstallDirs.cmake
+Index: extra-cmake-modules-1.0.0/kde-modules/KDEInstallDirs.cmake
 ===================================================================
---- extra-cmake-modules-0.0.14.orig/kde-modules/KDEInstallDirs.cmake	2014-06-02 13:56:10.000000000 +0100
-+++ extra-cmake-modules-0.0.14/kde-modules/KDEInstallDirs.cmake	2014-06-02 14:23:26.000000000 +0100
-@@ -323,16 +323,16 @@
+--- extra-cmake-modules-1.0.0.orig/kde-modules/KDEInstallDirs.cmake
++++ extra-cmake-modules-1.0.0/kde-modules/KDEInstallDirs.cmake
+@@ -323,16 +323,16 @@ _define_relative(CMAKEPACKAGEDIR LIBDIR
      CMAKECONFIG_INSTALL_PREFIX)
  
  # Qt-specific vars
@@ -22,7 +22,7 @@ Index: extra-cmake-modules-0.0.14/kde-modules/KDEInstallDirs.cmake
      "QtQuick2 imports"
      QML_INSTALL_DIR)
  
-@@ -432,7 +432,7 @@
+@@ -432,7 +432,7 @@ _define_relative(DBUSSYSTEMSERVICEDIR DB
  
  
  
@@ -31,10 +31,10 @@ Index: extra-cmake-modules-0.0.14/kde-modules/KDEInstallDirs.cmake
      "read-only single-machine data"
      SYSCONF_INSTALL_DIR)
  _define_relative(CONFDIR SYSCONFDIR "xdg"
-Index: extra-cmake-modules-0.0.14/modules/ECMGeneratePriFile.cmake
+Index: extra-cmake-modules-1.0.0/modules/ECMGeneratePriFile.cmake
 ===================================================================
---- extra-cmake-modules-0.0.14.orig/modules/ECMGeneratePriFile.cmake	2014-06-02 13:56:10.000000000 +0100
-+++ extra-cmake-modules-0.0.14/modules/ECMGeneratePriFile.cmake	2014-06-02 14:23:26.000000000 +0100
+--- extra-cmake-modules-1.0.0.orig/modules/ECMGeneratePriFile.cmake
++++ extra-cmake-modules-1.0.0/modules/ECMGeneratePriFile.cmake
 @@ -82,7 +82,7 @@
  # (To distribute this file outside of extra-cmake-modules, substitute the full
  #  License text for the above reference.)
@@ -44,45 +44,3 @@ Index: extra-cmake-modules-0.0.14/modules/ECMGeneratePriFile.cmake
  
  function(ECM_GENERATE_PRI_FILE)
    set(options )
-Index: extra-cmake-modules-0.0.14/tests/ExecuteKDEModules/CMakeLists.txt
-===================================================================
---- extra-cmake-modules-0.0.14.orig/tests/ExecuteKDEModules/CMakeLists.txt	2014-06-01 10:41:44.000000000 +0100
-+++ extra-cmake-modules-0.0.14/tests/ExecuteKDEModules/CMakeLists.txt	2014-06-02 14:36:14.663149630 +0100
-@@ -24,10 +24,8 @@
- 
- set(relative_path_vars
-     # old-style variables
--    AUTOSTART_INSTALL_DIR
-     BIN_INSTALL_DIR
-     CMAKECONFIG_INSTALL_PREFIX
--    CONFIG_INSTALL_DIR
-     DATA_INSTALL_DIR
-     DBUS_INTERFACES_INSTALL_DIR
-     DBUS_SERVICES_INSTALL_DIR
-@@ -55,7 +53,6 @@
-     SERVICETYPES_INSTALL_DIR
-     SHARE_INSTALL_PREFIX
-     SOUND_INSTALL_DIR
--    SYSCONF_INSTALL_DIR
-     TEMPLATES_INSTALL_DIR
-     WALLPAPER_INSTALL_DIR
-     XDG_APPS_INSTALL_DIR
-@@ -64,10 +61,8 @@
- 
-     # new-style variables
-     CMAKE_INSTALL_APPDIR
--    CMAKE_INSTALL_AUTOSTARTDIR
-     CMAKE_INSTALL_BINDIR
-     CMAKE_INSTALL_CMAKEPACKAGEDIR
--    CMAKE_INSTALL_CONFDIR
-     CMAKE_INSTALL_DATADIR
-     CMAKE_INSTALL_DATADIR_KF5
-     CMAKE_INSTALL_DATAROOTDIR
-@@ -101,7 +96,6 @@
-     CMAKE_INSTALL_SBINDIR
-     CMAKE_INSTALL_SHAREDSTATEDIR
-     CMAKE_INSTALL_SOUNDDIR
--    CMAKE_INSTALL_SYSCONFDIR
-     CMAKE_INSTALL_TEMPLATEDIR
-     CMAKE_INSTALL_WALLPAPERDIR
- )
