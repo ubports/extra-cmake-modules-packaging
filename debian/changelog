@@ -1,6 +1,10 @@
 extra-cmake-modules (1.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial stable upstream release
+
+  [ Scarlett Clark ]
+  * Remove part of patch that broke build 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Jul 2014 23:57:30 +0200
 
