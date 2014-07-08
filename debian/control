@@ -11,6 +11,8 @@ Build-Depends: cmake,
                qttools5-dev-tools
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/kdesupport/extra-cmake-modules
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/extra-cmake-modules
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/extra-cmake-modules
 
 Package: extra-cmake-modules
 Architecture: any
