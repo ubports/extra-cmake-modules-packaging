@@ -1,8 +1,9 @@
 Source: extra-cmake-modules
 Section: libs
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
+Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Jonathan Riddell <jriddell@ubuntu.com>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                pkg-kde-tools,
