@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
 Build-Depends: cmake,
-               debhelper (>= 9.0.0),
+               debhelper (>= 9),
                pkg-kde-tools,
                qt5-default,
                qttools5-dev,
