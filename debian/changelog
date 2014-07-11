@@ -1,3 +1,9 @@
+extra-cmake-modules (1.0.0-1~) UNRELEASED; urgency=medium
+
+  * Prepare the debian version based on the kubuntu package.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Jul 2014 14:30:07 +0200
+
 extra-cmake-modules (1.0.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
