@@ -1,1 +1,2 @@
 kde-install-dirs.diff
+upstream_Check-the-libdir-also-on-kFreeBSD-and-Hurd.patch

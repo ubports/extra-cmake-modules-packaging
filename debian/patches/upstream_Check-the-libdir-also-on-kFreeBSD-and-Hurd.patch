@@ -1,0 +1,36 @@
+From d5582bb3b1d3132dab8f8486729f62c8b8530da3 Mon Sep 17 00:00:00 2001
+From: Pino Toscano <pino@kde.org>
+Date: Sat, 19 Jul 2014 16:45:19 +0200
+Subject: [PATCH] Check the libdir also on kFreeBSD and Hurd
+
+This way, on the Debian versions of these OSes, the library directory
+can be a multiarch path.
+---
+ kde-modules/KDEInstallDirs.cmake | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/kde-modules/KDEInstallDirs.cmake b/kde-modules/KDEInstallDirs.cmake
+index 25b308b..880539b 100644
+--- a/kde-modules/KDEInstallDirs.cmake
++++ b/kde-modules/KDEInstallDirs.cmake
+@@ -173,14 +173,15 @@
+ # by the _define_* macros in this module).
+ set(_LIBDIR_DEFAULT "lib")
+ # Override this default 'lib' with 'lib64' iff:
+-#  - we are on Linux system but NOT cross-compiling
++#  - we are on a Linux, kFreeBSD or Hurd system but NOT cross-compiling
+ #  - we are NOT on debian
+ #  - we are on a 64 bits system
+ # reason is: amd64 ABI: http://www.x86-64.org/documentation/abi.pdf
+ # For Debian with multiarch, use 'lib/${CMAKE_LIBRARY_ARCHITECTURE}' if
+ # CMAKE_LIBRARY_ARCHITECTURE is set (which contains e.g. "i386-linux-gnu"
+ # See http://wiki.debian.org/Multiarch
+-if(CMAKE_SYSTEM_NAME MATCHES "Linux" AND NOT CMAKE_CROSSCOMPILING)
++if((CMAKE_SYSTEM_NAME MATCHES "Linux|kFreeBSD" OR CMAKE_SYSTEM_NAME STREQUAL "GNU")
++   AND NOT CMAKE_CROSSCOMPILING)
+   if (EXISTS "/etc/debian_version") # is this a debian system ?
+     if(CMAKE_LIBRARY_ARCHITECTURE)
+       set(_LIBDIR_DEFAULT "lib/${CMAKE_LIBRARY_ARCHITECTURE}")
+-- 
+2.0.1
+
