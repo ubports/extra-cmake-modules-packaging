@@ -1,3 +1,17 @@
+extra-cmake-modules (1.3.0~git20140917-0ubuntu1) utopic; urgency=medium
+
+  * Git snapshot needed to allow qmldir to follow qt_sys_path.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 04:01:18 -0700
+
+extra-cmake-modules (1.2.1-0ubuntu1~ubuntu14.10~ppa1) utopic; urgency=medium
+
+  * New upstream release
+  * Build-dep on pkg-kde-tools >= 0.15.15ubuntu1
+  * Remove kde-install-dirs.diff better detection upstream by Rohan
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 21:17:06 +0000
+
 extra-cmake-modules (1.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
