@@ -6,7 +6,6 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                pkg-kde-tools,
-               qt5-default,
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.5
