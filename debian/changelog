@@ -1,4 +1,4 @@
-extra-cmake-modules (1.3.0~git20140917-0ubuntu2) UNRELEASED; urgency=medium
+extra-cmake-modules (1.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Do not build depend on qt5-default, we only need qtbase5-dev
 
