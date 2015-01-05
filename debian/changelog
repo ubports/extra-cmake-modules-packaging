@@ -1,3 +1,9 @@
+extra-cmake-modules (1.6.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Jan 2015 12:48:26 +0100
+
 extra-cmake-modules (1.5.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
