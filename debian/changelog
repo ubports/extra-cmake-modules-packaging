@@ -4,6 +4,7 @@ extra-cmake-modules (1.6.1-1~) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed
   * Change debian/* license to an upstream compatible license.
   * Update copyright information.
+  * Bump pkg-kde-tools build-dep to use the experimental version.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Jan 2015 13:54:52 +0100
 
