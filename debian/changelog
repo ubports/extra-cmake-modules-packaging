@@ -2,6 +2,7 @@ extra-cmake-modules (1.6.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (1.6.1).
   * Bump Standards-Version to 3.9.6, no changes needed
+  * Change debian/* license to an upstream compatible license.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Jan 2015 13:54:52 +0100
 
