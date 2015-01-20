@@ -3,58 +3,76 @@ Upstream-Name: extra-cmake-modules
 Source: https://projects.kde.org/projects/kdesupport/extra-cmake-modules
 
 Files: *
-Copyright: 2006,2008 Alexander Neundorf <neundorf@kde.org>,
-  2008 Adrian Page <adrian@pagenet.plus.com>,
-  2006, 2010 Alexander Neundorf <neundorf@kde.org>,
-  2006 Alexander Dymo <adymo@kdevelop.org>,
-  2006 Alexander Neundorf <neundorf@kde.org>,
-  2007 Allen Winter <winter@kde.org>,
-  2010 Andreas Holzammer <andy@kdab.com>,
-  2007 Andreas Pakulat <apaku@gmx.de>,
-  2006 Benjamin Reed <ranger@befunk.com>,
-  2007 Charles Connell <charles@connells.org>,
-  2007 Christian Ehrlicher <ch.ehrlicher@gmx.de>,
-  2006 Chusslove Illich <caslav.ilic@gmx.net>,
-  2009 Cyrille Berger <cberger@cberger.net>,
-  2008 Daniel Gollub <dgollub@suse.de>,
-  2009 Daniel Nicoletti <dantti85-pk@yahoo.com.br>,
-  2006,2012 David Faure <faure@kde.org>,
-  2009 Dario Freddi <drf54321@gmail.com>,
-  2006 Egon Willighagen <egonw@users.sf.net>,
-  2009 Frederik Gladhorn <gladhorn@kde.org>,
-  2011 Fredrik Höglund <fredrik@kde.org>,
-  2008, 2009 Gael Guennebaud <g.gael@free.fr>,
-  2007 Gerd Fleisher <gerdfleischer@web.de>,
-  2008 Gilles Caulier <caulier.gilles@gmail.com>,
-  2009 Harald Fernengel <harry@kdevelop.org>,
-  2009 Helio Chissini de Castro <helio@kde.org>,
-  2006-2008 Jarosław Staniek <staniek@kde.org>,
-  2007 Jakub Stachowski <qbast@go2.pl>,
-  2008 Jos van den Oever <jos@vandenoever.info>,
-  2002,2005-2009 Kitware, Inc,
-  2006,2007 Laurent Montel <montel@kde.org>,
-  2010 Luigi Toscano <luigi.toscano@tiscali.it>,
-  2006,2009 Marcus Hufgard <hufgardm@hufgard.de>,
-  2013 Martin Gräßlin <mgraesslin@kde.org>,
-  2006, 2007 Matthias Kretz <kretz@kde.org>,
-  2006 Michael Larouche <michael.larouche@kdemail.net>,
-  2009 Michal Malek <michalm@jabster.pl>,
-  2008 Patrick Spendrin <ps_ml@gmx.de>,
-  2010 Paulo Romulo Alves Barros <paulo.romulo@kdemail.net>,
-  2008 Per Øyvind Karlsen <peroyvind@mandriva.org>,
-  2006 Pino Toscano <toscano.pino@tiscali.it>,
-  2006-2009 Ralf Habacker,
-  2010 Rafael Fernández López <ereslibre@kde.org>,
-  2011 Raphael Kubo da Costa <kubito@gmail.com>,
-  2006 Richard Laerkaeng <richard@goteborg.utfors.se>,
-  2008,2009 Sebastian Trueg <sebastian@trueg.de>,
-  2007-2008 Simon Edwards <simon@simonzone.com>,
-  2006 Tim Beaulen <tbscope@gmail.com>,
-  2006 Thorsten Roeder <thorsten.roeder@weihenstephan.org>,
-  2006 Wilfried Huss <wilfried.huss@gmx.at>,
-  2007 Will Stephenson <wstephenson@kde.org>,
-  2006 Zack Rusin <zack@kde.org>,
+Copyright: 2006,2008 Alexander Neundorf <neundorf@kde.org>
+           2008 Adrian Page <adrian@pagenet.plus.com>
+           2013, Albert Astals Cid <aacid@kde.org>
+           2013-2014, Aleix Pol Gonzalez <aleixpol@kde.org>
+           2013-2015, Alex Merry <alex.merry@kde.org>
+           2006 Alexander Dymo <adymo@kdevelop.org>
+           2006-2013 Alexander Neundorf <neundorf@kde.org>
+           2013, Alexander Richardson <arichardson.kde@gmail.com>
+           2007 Allen Winter <winter@kde.org>
+           2010 Andreas Holzammer <andy@kdab.com>
+           2007 Andreas Pakulat <apaku@gmx.de>
+           2014, Aurélien Gâteau <agateau@kde.org>
+           2006 Benjamin Reed <ranger@befunk.com>
+           2009, Canonical Ltd
+           2007 Charles Connell <charles@connells.org>
+           2007 Christian Ehrlicher <ch.ehrlicher@gmx.de>
+           2014, Christoph Cullmann <cullmann@kde.org>
+           2006 Chusslove Illich <caslav.ilic@gmx.net>
+           2009 Cyrille Berger <cberger@cberger.net>
+           2008 Daniel Gollub <dgollub@suse.de>
+           2009 Daniel Nicoletti <dantti85-pk@yahoo.com.br>
+           2013, David Edmundson <kde@davidedmundson.co.uk>
+           2009 Dario Freddi <drf54321@gmail.com>
+           2006-2014 David Faure <faure@kde.org>
+           2006 Egon Willighagen <egonw@users.sf.net>
+           2009 Frederik Gladhorn <gladhorn@kde.org>
+           2011 Fredrik Höglund <fredrik@kde.org>
+           2008, 2009 Gael Guennebaud <g.gael@free.fr>
+           2007 Gerd Fleisher <gerdfleischer@web.de>
+           2008 Gilles Caulier <caulier.gilles@gmail.com>
+           2009 Harald Fernengel <harry@kdevelop.org>
+           2009 Helio Chissini de Castro <helio@kde.org>
+           2007 Jakub Stachowski <qbast@go2.pl>
+           2006-2008 Jarosław Staniek <staniek@kde.org>
+           2008 Jos van den Oever <jos@vandenoever.info>
+           2002-2009 Kitware, Inc
+           2000-2013, Kitware, Inc., Insight Software Consortium
+           2006,2007 Laurent Montel <montel@kde.org>
+           2010 Luigi Toscano <luigi.toscano@tiscali.it>
+           2006,2009 Marcus Hufgard <hufgardm@hufgard.de>
+           2013-2014, Martin Gräßlin <mgraesslin@kde.org>
+           2014, Mathieu Tarral <mathieu.tarral@gmail.com>
+           2006-2008, Matthias Kretz <kretz@kde.org>
+           2006 Michael Larouche <michael.larouche@kdemail.net>
+           2009 Michal Malek <michalm@jabster.pl>
+           2008 Patrick Spendrin <ps_ml@gmx.de>
+           2010 Paulo Romulo Alves Barros <paulo.romulo@kdemail.net>
+           2008 Per Øyvind Karlsen <peroyvind@mandriva.org>
+           2012-2014, Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
+           2006-2007, Pino Toscano <toscano.pino@tiscali.it>
+           2010 Rafael Fernández López <ereslibre@kde.org>
+           2006-2009, Ralf Habacker
+           2007-2009, Ralf Habacker <ralf.habacker@freenet.de>
+           2011-2013, Raphael Kubo da Costa <kubito@gmail.com>
+           2014, Raphael Kubo da Costa <rakuco@FreeBSD.org>
+           2006 Richard Laerkaeng <richard@goteborg.utfors.se>
+           2007-2009, Sebastian Trueg <sebastian@trueg.de>
+           2007-2008, Simon Edwards <simon@simonzone.com>
+           2012-2013, Stephen Kelly <steveire@gmail.com>
+           2006 Thorsten Roeder <thorsten.roeder@weihenstephan.org>
+           2006 Tim Beaulen <tbscope@gmail.com>
+           2006 Wilfried Huss <wilfried.huss@gmx.at>
+           2007 Will Stephenson <wstephenson@kde.org>
+           2011-2013, Yury Kudryashov <urkud@ya.ru>
+           2006 Zack Rusin <zack@kde.org>
 License: BSD-3-Clause
+
+Files: attic/modules/FindPyKDE4.cmake
+       attic/modules/PythonCompile.py
+License: public-domain
 
 Files: debian/*
 Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
