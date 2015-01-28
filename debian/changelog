@@ -1,3 +1,13 @@
+extra-cmake-modules (1.6.1-1) experimental; urgency=medium
+
+  * New upstream release (1.6.1).
+  * Bump Standards-Version to 3.9.6, no changes needed
+  * Change debian/* license to an upstream compatible license.
+  * Update copyright information.
+  * Bump pkg-kde-tools build-dep to use the experimental version.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Jan 2015 15:11:18 +0100
+
 extra-cmake-modules (1.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
