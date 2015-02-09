@@ -1,3 +1,9 @@
+extra-cmake-modules (1.7.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 10:26:13 +0100
+
 extra-cmake-modules (1.6.1-1) experimental; urgency=medium
 
   * New upstream release (1.6.1).
