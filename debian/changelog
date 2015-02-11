@@ -1,3 +1,9 @@
+extra-cmake-modules (1.7.0-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_qtwaylandscanner_binary.diff to fine qtwaylandscanner
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 11 Feb 2015 14:42:55 +0100
+
 extra-cmake-modules (1.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
