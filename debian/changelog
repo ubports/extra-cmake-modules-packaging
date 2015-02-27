@@ -1,8 +1,8 @@
-extra-cmake-modules (1.7.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (1.7.0-1) experimental; urgency=medium
 
   * New upstream release (1.7.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:59:32 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 Feb 2015 14:38:24 +0100
 
 extra-cmake-modules (1.7.0-0ubuntu2) vivid; urgency=medium
 
