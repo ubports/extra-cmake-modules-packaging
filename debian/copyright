@@ -70,8 +70,9 @@ Copyright: 2006,2008 Alexander Neundorf <neundorf@kde.org>
            2006 Zack Rusin <zack@kde.org>
 License: BSD-3-Clause
 
-Files: attic/modules/PythonCompile.py
-Copyright: Simon Edwards <simon@simonzone.com>
+Files: attic/modules/FindPyKDE4.cmake
+       attic/modules/PythonCompile.py
+Copyright: no copyright claimed
 License: public-domain
  This file is in the public domain.
 

@@ -1,14 +1,38 @@
+extra-cmake-modules (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:22:42 +0200
+
+extra-cmake-modules (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:06 +0200
+
 extra-cmake-modules (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:16:28 +0200
 
+extra-cmake-modules (1.8.0-1) experimental; urgency=medium
+
+  * New upstream release (1.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 12:06:02 +0100
+
 extra-cmake-modules (1.8.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 13 Mar 2015 14:06:33 +0100
+
+extra-cmake-modules (1.7.0-1) experimental; urgency=medium
+
+  * New upstream release (1.7.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 Feb 2015 14:38:24 +0100
 
 extra-cmake-modules (1.7.0-0ubuntu2) vivid; urgency=medium
 
