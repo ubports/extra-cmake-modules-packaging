@@ -12,7 +12,7 @@ extra-cmake-modules (5.9.0-1) experimental; urgency=medium
 
 extra-cmake-modules (5.9.0-0ubuntu1) vivid; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:16:28 +0200
 
