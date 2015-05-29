@@ -1,6 +1,4 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-dh += --with=sphinxdoc
-
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
