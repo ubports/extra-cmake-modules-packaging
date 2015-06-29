@@ -1,7 +1,12 @@
-extra-cmake-modules (5.10.0-0ubuntu1) wily; urgency=medium
+extra-cmake-modules (5.11.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+
+-- Maximiliano Curia <maxy@debian.org>  Wed, 24 Jun 2015 21:42:38 +0200
+
+extra-cmake-modules (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -16,7 +21,7 @@ extra-cmake-modules (5.9.0-1) experimental; urgency=medium
 
 extra-cmake-modules (5.9.0-0ubuntu1) vivid; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:16:28 +0200
 
