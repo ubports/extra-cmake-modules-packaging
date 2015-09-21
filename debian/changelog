@@ -1,3 +1,10 @@
+extra-cmake-modules (5.14.0-0ubuntu2) wily; urgency=medium
+
+  * cherry-pick debian/rules change from Debian to not run tests, unknown
+    failure in powerpc
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 21 Sep 2015 15:29:49 +0100
+
 extra-cmake-modules (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
