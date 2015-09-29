@@ -1,9 +1,10 @@
-extra-cmake-modules (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+extra-cmake-modules (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Vivid backport. 
+  * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 07:52:31 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 15:40:36 -0700
 
 extra-cmake-modules (5.11.0-1) unstable; urgency=medium
 
