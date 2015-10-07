@@ -1,4 +1,4 @@
-extra-cmake-modules (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+extra-cmake-modules (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * cherry-pick debian/rules change from Debian to not run tests, unknown
@@ -10,7 +10,7 @@ extra-cmake-modules (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 19:08:14 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:41:39 +0100
 
 extra-cmake-modules (5.14.0-0ubuntu1) wily; urgency=medium
 
