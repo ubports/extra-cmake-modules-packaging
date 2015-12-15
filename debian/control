@@ -1,10 +1,13 @@
 Source: extra-cmake-modules
 Section: libs
 Priority: optional
-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
+               libjs-jquery,
+               libjs-underscore,
                pkg-kde-tools (>= 0.15.16~),
                python3-sphinx,
                qttools5-dev (>= 5.4),
