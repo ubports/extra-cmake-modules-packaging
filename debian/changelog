@@ -1,8 +1,12 @@
-extra-cmake-modules (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+extra-cmake-modules (4:5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 01:29:12 +0000
+  [ Philip Muškovac ]
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:53:45 +0100
 
 extra-cmake-modules (5.16.0-1) unstable; urgency=medium
 
