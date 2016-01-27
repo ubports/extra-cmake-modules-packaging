@@ -1,9 +1,9 @@
-extra-cmake-modules (5.18.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.18.0-1) experimental; urgency=medium
 
   * New upstream release (5.17.0).
   * New upstream release (5.18.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 21:00:14 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:16 +0100
 
 extra-cmake-modules (5.16.0-1) unstable; urgency=medium
 
