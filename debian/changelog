@@ -1,6 +1,6 @@
-extra-cmake-modules (5.20.0-1~14.gbp85e669) UNRELEASED; urgency=medium
+extra-cmake-modules (5.20.0-1~15.gbp741f04) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @85e669de00622e7ed673fa1d041791d3bd991426 **
+  ** SNAPSHOT build @741f04714a8a0a7e179b49b9c17e18aae9327b39 **
 
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
@@ -20,8 +20,9 @@ extra-cmake-modules (5.20.0-1~14.gbp85e669) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * Update acc test script
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:32:31 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:37:15 +0200
 
 extra-cmake-modules (5.19.0-1) experimental; urgency=medium
 
