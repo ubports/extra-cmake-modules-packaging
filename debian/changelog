@@ -1,3 +1,9 @@
+extra-cmake-modules (5.20.0-0neon0) wily; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 09:39:04 +0000
+
 extra-cmake-modules (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
