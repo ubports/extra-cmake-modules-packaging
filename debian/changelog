@@ -1,3 +1,15 @@
+extra-cmake-modules (5.21.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 30 Apr 2016 15:31:50 +0200
+
 extra-cmake-modules (5.21.0-0neon) xenial; urgency=medium
 
   * New release
@@ -9,6 +21,19 @@ extra-cmake-modules (5.20.0-0neon) wily; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 09:39:04 +0000
+
+extra-cmake-modules (5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:22 +0100
+
+extra-cmake-modules (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:16 +0100
 
 extra-cmake-modules (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
