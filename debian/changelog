@@ -1,13 +1,8 @@
-extra-cmake-modules (5.22.0-1~2.gbp8f8ef4) UNRELEASED; urgency=medium
+extra-cmake-modules (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @8f8ef441389000d734ae87f773aff302efd34274 **
-
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
   * Add new patch: force_relative_paths.diff
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 16 May 2016 16:36:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 May 2016 10:53:42 +0200
 
 extra-cmake-modules (5.21.0-1) experimental; urgency=medium
 
