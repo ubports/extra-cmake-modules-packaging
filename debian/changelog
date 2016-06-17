@@ -1,10 +1,9 @@
-extra-cmake-modules (5.23.0-1~1.gbp4bd353) UNRELEASED; urgency=medium
+extra-cmake-modules (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @4bd353311a83c54b80814688910a8422b8302edb **
-
+  [ Automatic packaging ]
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 18:37:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jun 2016 16:25:43 +0200
 
 extra-cmake-modules (5.22.0-1) unstable; urgency=medium
 
