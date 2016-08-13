@@ -1,3 +1,11 @@
+extra-cmake-modules (5.25.0-1~1.gbp05f5df) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @05f5df5b1219474c2a76260c5de6cb4e681cad18 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 12:37:14 +0200
+
 extra-cmake-modules (5.24.0-1) unstable; urgency=medium
 
   * New upstream release.
