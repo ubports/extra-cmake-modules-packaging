@@ -3,13 +3,6 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
-override_dh_install:
-	$(overridden_command)
-	rm debian/extra-cmake-modules/usr/share/doc/ECM/html/_static/jquery.js
-	ln -s /usr/share/javascript/jquery/jquery.js debian/extra-cmake-modules/usr/share/doc/ECM/html/_static/jquery.js
-	rm debian/extra-cmake-modules/usr/share/doc/ECM/html/_static/underscore.js
-	ln -s /usr/share/javascript/underscore/underscore.js debian/extra-cmake-modules/usr/share/doc/ECM/html/_static/underscore.js
-
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
