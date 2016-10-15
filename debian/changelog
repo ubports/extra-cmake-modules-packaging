@@ -1,10 +1,8 @@
-extra-cmake-modules (5.27.0-1~1.gbpfab436) UNRELEASED; urgency=medium
+extra-cmake-modules (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @fab4364955b8483a9fea107c67a174716bde62c7 **
+  * New upstream release (5.27.0).
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 18:37:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 16:45:31 +0200
 
 extra-cmake-modules (5.26.0-1) unstable; urgency=medium
 
