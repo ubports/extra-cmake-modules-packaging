@@ -1,3 +1,9 @@
+extra-cmake-modules (5.27.0-1) unstable; urgency=medium
+
+  * New upstream release (5.27.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 16:45:31 +0200
+
 extra-cmake-modules (5.27.0-0neon) xenial; urgency=medium
 
   * New release
