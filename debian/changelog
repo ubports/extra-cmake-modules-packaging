@@ -1,3 +1,11 @@
+extra-cmake-modules (5.28.0-1~1.gbp330a77) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @330a773466693c91d11c765bb560c62f6d071a93 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 17:06:22 +0100
+
 extra-cmake-modules (5.27.0-1) unstable; urgency=medium
 
   * New upstream release (5.27.0).
