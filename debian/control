@@ -19,6 +19,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/extra-cmake-modules.g
 Package: extra-cmake-modules
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: qt5-default
 Suggests: qt5-qmake, qtbase5-dev
 Description: Extra modules and scripts for CMake
  Extra CMake Modules, or ECM, aims to augment CMake with additional modules. It
