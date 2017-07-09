@@ -1,4 +1,4 @@
-extra-cmake-modules (5.36.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.36.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -6,12 +6,13 @@ extra-cmake-modules (5.36.0-1~) UNRELEASED; urgency=medium
   * Add python3-sphinx build dependency
   * watch: Use https uris
   * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
 
   [ Raymond Wooninck ]
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:31:54 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:40:51 +0200
 
 extra-cmake-modules (5.28.0-1) unstable; urgency=medium
 
