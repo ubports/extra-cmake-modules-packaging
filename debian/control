@@ -9,7 +9,7 @@ Build-Depends: cmake (>= 2.8.12~),
                python3-sphinx,
                qttools5-dev (>= 5.4),
                qttools5-dev-tools (>= 5.4)
-Standards-Version: 4.0.0
+Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kdesupport/extra-cmake-modules
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/extra-cmake-modules.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/extra-cmake-modules.git
