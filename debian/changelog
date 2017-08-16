@@ -1,9 +1,12 @@
-extra-cmake-modules (5.37.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.37.0-1) experimental; urgency=medium
 
   * New revision
   * New upstream release (5.37.0).
+  * Bump Standards-Version to 4.0.1.
+  * wrap-and-sort
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Aug 2017 13:05:02 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Aug 2017 10:41:43 +0200
 
 extra-cmake-modules (5.36.0-1) experimental; urgency=medium
 
