@@ -1,3 +1,9 @@
+extra-cmake-modules (5.38.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 11 Sep 2017 13:25:29 +0000
+
 extra-cmake-modules (5.37.0-0neon) xenial; urgency=medium
 
   * New release
