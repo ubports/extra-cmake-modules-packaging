@@ -1,8 +1,12 @@
-extra-cmake-modules (5.41.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.41.0).
+  * Use linktree to drop jquery and underscore
+  * Bump Standards-Version to 4.1.2.
+  * Bump group breaks (5.41)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Dec 2017 12:42:44 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:41:58 -0300
 
 extra-cmake-modules (5.41.0-0neon) xenial; urgency=medium
 
