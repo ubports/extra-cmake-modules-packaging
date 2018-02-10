@@ -1,8 +1,9 @@
-extra-cmake-modules (5.42.0-2~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.42.0-2) sid; urgency=medium
 
   * New revision
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 10 Feb 2018 11:22:49 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 10 Feb 2018 11:28:25 +0100
 
 extra-cmake-modules (5.42.0-1) experimental; urgency=medium
 
