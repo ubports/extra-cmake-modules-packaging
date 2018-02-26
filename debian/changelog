@@ -1,9 +1,11 @@
-extra-cmake-modules (5.43.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.43.0-1) experimental; urgency=medium
 
   * Use the salsa canonical urls
   * New upstream release (5.43.0).
+  * Bump group breaks (5.43)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Feb 2018 10:17:02 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Feb 2018 11:42:57 +0100
 
 extra-cmake-modules (5.42.0-2) sid; urgency=medium
 
