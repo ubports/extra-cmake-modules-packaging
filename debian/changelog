@@ -1,9 +1,10 @@
-extra-cmake-modules (5.44.0-2~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.44.0-2) sid; urgency=medium
 
   * New revision
   * Add python3-distutils sphinx dependency
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Mar 2018 17:48:47 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Mar 2018 17:54:05 +0100
 
 extra-cmake-modules (5.44.0-1) sid; urgency=medium
 
