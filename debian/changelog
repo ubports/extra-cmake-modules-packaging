@@ -1,8 +1,10 @@
-extra-cmake-modules (5.44.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.44.0-1) sid; urgency=medium
 
   * New upstream release (5.44.0).
+  * Bump group breaks (5.44)
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Mar 2018 13:50:23 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 Mar 2018 14:40:16 +0100
 
 extra-cmake-modules (5.43.0-1) experimental; urgency=medium
 
