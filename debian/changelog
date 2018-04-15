@@ -1,3 +1,9 @@
+extra-cmake-modules (5.45.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.45.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 15 Apr 2018 15:15:36 +0200
+
 extra-cmake-modules (5.44.0-2) sid; urgency=medium
 
   * New revision
