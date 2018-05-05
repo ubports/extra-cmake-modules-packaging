@@ -1,8 +1,11 @@
-extra-cmake-modules (5.45.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.45.0-1) unstable; urgency=medium
 
   * New upstream release (5.45.0).
+  * Add python3-setuptools sphinx dependency
+  * Bump group breaks (5.45)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 15 Apr 2018 15:15:36 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 May 2018 08:09:55 +0200
 
 extra-cmake-modules (5.44.0-2) sid; urgency=medium
 
