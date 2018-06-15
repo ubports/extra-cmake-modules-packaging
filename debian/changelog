@@ -1,9 +1,11 @@
-extra-cmake-modules (5.47.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.47.0-1) unstable; urgency=medium
 
   * testsuite: Run tests one at the time
   * New upstream release (5.47.0).
+  * Bump group breaks (5.47)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Jun 2018 13:41:59 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Jun 2018 12:07:55 +0200
 
 extra-cmake-modules (5.46.0-1) unstable; urgency=medium
 
