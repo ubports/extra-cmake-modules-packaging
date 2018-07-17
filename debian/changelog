@@ -1,3 +1,9 @@
+extra-cmake-modules (5.48.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.48.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Jul 2018 11:24:16 +0200
+
 extra-cmake-modules (5.47.0-1) unstable; urgency=medium
 
   * testsuite: Run tests one at the time
