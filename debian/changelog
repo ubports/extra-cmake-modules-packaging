@@ -1,10 +1,12 @@
-extra-cmake-modules (5.49.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.49.0-1) unstable; urgency=medium
 
   * New upstream release (5.48.0).
   * Update copyright information
   * New upstream release (5.49.0).
+  * Bump group breaks (5.49)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 11 Aug 2018 18:00:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Aug 2018 16:17:59 +0200
 
 extra-cmake-modules (5.47.0-1) unstable; urgency=medium
 
