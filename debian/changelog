@@ -1,8 +1,10 @@
-extra-cmake-modules (5.50.0-1~) xenial; urgency=medium
+extra-cmake-modules (5.51.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.50.0).
+  * Bump group breaks (5.50)
+  * New upstream release (5.51.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Sep 2018 10:48:45 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 31 Oct 2018 10:26:47 +0100
 
 extra-cmake-modules (5.49.0-1) unstable; urgency=medium
 
