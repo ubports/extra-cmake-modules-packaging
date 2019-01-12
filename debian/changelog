@@ -1,4 +1,4 @@
-extra-cmake-modules (5.53.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.54.0-1~) UNRELEASED; urgency=medium
 
   [ Scarlett Gately Moore ]
   * Use neon cmake-ignore as it is neon specific.
@@ -6,8 +6,9 @@ extra-cmake-modules (5.53.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release (5.52.0).
   * New upstream release (5.53.0).
+  * New upstream release (5.54.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Jan 2019 10:41:30 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 12 Jan 2019 15:26:23 -0300
 
 extra-cmake-modules (5.51.0-1) unstable; urgency=medium
 
