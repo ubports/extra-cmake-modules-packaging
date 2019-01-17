@@ -35,6 +35,6 @@ Description: Extra modules and scripts for CMake
  other projects will find it useful, and outside contributions are always
  welcome. The main rule for new modules is that there must be at least two
  downstream users.
-Breaks: libkf5package-dev (<< 5.51),
-        libkf5plasma-dev (<< 5.51),
-        libkf5runner-dev (<< 5.51),
+Breaks: libkf5package-dev (<< 5.54),
+        libkf5plasma-dev (<< 5.54),
+        libkf5runner-dev (<< 5.54),
