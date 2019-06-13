@@ -1,4 +1,4 @@
-extra-cmake-modules (5.54.0-2) UNRELEASED; urgency=medium
+extra-cmake-modules (5.54.0-2~) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not recommend qt5-default (Closes: #928370).
