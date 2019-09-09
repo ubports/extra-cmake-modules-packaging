@@ -1,4 +1,4 @@
-extra-cmake-modules (5.61.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.61.0-1) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Do not recommend qt5-default (Closes: #928370).
@@ -6,8 +6,9 @@ extra-cmake-modules (5.61.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Salsa CI automatic initialization by Tuco
   * New upstream release (5.61.0).
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 04 Sep 2019 13:21:45 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Sep 2019 21:10:06 +0100
 
 extra-cmake-modules (5.54.0-1) unstable; urgency=medium
 
