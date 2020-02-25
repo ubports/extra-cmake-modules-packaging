@@ -3,6 +3,7 @@ extra-cmake-modules (5.67.0-1~) UNRELEASED; urgency=medium
   [ Sandro Knauß ]
   * Bump Standards-Version to 4.5.0 (No changes needed).
   * New upstream release (5.67.0).
+  * Update build-deps and deps with the info from cmake.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Feb 2020 02:21:49 +0100
 
