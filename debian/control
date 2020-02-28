@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.5~),
-               debhelper (>= 11~),
+               debhelper-compat (= 12),
                dh-linktree,
                libjs-jquery,
                libjs-underscore,
@@ -14,7 +14,7 @@ Build-Depends: cmake (>= 3.5~),
                python3-sphinx,
                qtdeclarative5-dev,
                qttools5-dev (>= 5.4),
-               qttools5-dev-tools (>= 5.4)
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.5.0
 Homepage: https://projects.kde.org/projects/kdesupport/extra-cmake-modules
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/extra-cmake-modules
@@ -36,4 +36,4 @@ Description: Extra modules and scripts for CMake
  downstream users.
 Breaks: libkf5package-dev (<< 5.54),
         libkf5plasma-dev (<< 5.54),
-        libkf5runner-dev (<< 5.54)
+        libkf5runner-dev (<< 5.54),
