@@ -10,6 +10,7 @@ extra-cmake-modules (5.69.0-1~) UNRELEASED; urgency=medium
   * Add Rules-Requires-Root: no.
   * Bump compat level to 13.
   * Fix debian-rules-uses-as-needed-linker-flag.
+  * Adding sphinxcontrib to B-D.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Feb 2020 02:21:49 +0100
 
