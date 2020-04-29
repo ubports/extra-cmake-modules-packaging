@@ -1,10 +1,10 @@
-extra-cmake-modules (5.69.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.69.0-1) experimental; urgency=medium
+
+  * Team upload.
 
   [ Sandro Knauß ]
   * Bump Standards-Version to 4.5.0 (No changes needed).
-  * New upstream release (5.67.0).
   * Update build-deps and deps with the info from cmake.
-  * Bump compat level to 12.
   * New upstream release (5.69.0).
   * Remove unused lintian-override file.
   * Add Rules-Requires-Root: no.
@@ -12,7 +12,7 @@ extra-cmake-modules (5.69.0-1~) UNRELEASED; urgency=medium
   * Fix debian-rules-uses-as-needed-linker-flag.
   * Adding sphinxcontrib to B-D.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 25 Feb 2020 02:21:49 +0100
+ -- Sandro Knauß <hefee@debian.org>  Thu, 30 Apr 2020 00:53:18 +0200
 
 extra-cmake-modules (5.62.0-1) unstable; urgency=medium
 
