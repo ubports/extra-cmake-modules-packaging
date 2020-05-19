@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.5~),
                debhelper-compat (= 13),
                dh-linktree,
-               libjs-jquery,
+               libjs-jquery (>= 3.5.1+dfsg-3),
                libjs-underscore,
                pkg-kde-tools (>= 0.15.16~),
                python3-distutils,
