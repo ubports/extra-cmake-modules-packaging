@@ -8,6 +8,7 @@ extra-cmake-modules (5.69.0-2) UNRELEASED; urgency=medium
     address.
     - Update control Homepage as projects.kde.org is dead.
     - Update copyright Source to point to invent. 
+    - Update upstream metadata to point to invent.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 May 2020 10:22:30 -0700
 
