@@ -17,6 +17,8 @@ extra-cmake-modules (5.70.0-1~) UNRELEASED; urgency=medium
   * New upstream release (5.70.0).
 
   * Set field Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 May 2020 10:22:30 -0700
 
