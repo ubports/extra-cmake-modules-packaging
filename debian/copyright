@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: extra-cmake-modules
 Source: https://invent.kde.org/frameworks/extra-cmake-modules
+Upstream-Contact: kde-frameworks-devel@kde.org
 
 Files: *
 Copyright: 2013, Albert Astals Cid <aacid@kde.org>
