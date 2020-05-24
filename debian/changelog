@@ -7,7 +7,7 @@ extra-cmake-modules (5.70.0-1~) UNRELEASED; urgency=medium
   * Update all instances of source to use new invent.kde.org
     address.
     - Update control Homepage as projects.kde.org is dead.
-    - Update copyright Source to point to invent. 
+    - Update copyright Source to point to invent.
     - Update upstream metadata to point to invent.
   * Update jquery path in linktrees to reflect latest
     release path change. Set version in control to make
