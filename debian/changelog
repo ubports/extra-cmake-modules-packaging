@@ -1,8 +1,5 @@
 extra-cmake-modules (5.70.0-1~) UNRELEASED; urgency=medium
 
-  [ Debian Qt/KDE Maintainers ]
-  * Team upload.
-
   [ Scarlett Moore ]
   * Update all instances of source to use new invent.kde.org
     address.
