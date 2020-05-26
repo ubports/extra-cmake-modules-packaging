@@ -1,4 +1,6 @@
-extra-cmake-modules (5.70.0-1~) UNRELEASED; urgency=medium
+extra-cmake-modules (5.70.0-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Scarlett Moore ]
   * Update all instances of source to use new invent.kde.org
@@ -17,7 +19,7 @@ extra-cmake-modules (5.70.0-1~) UNRELEASED; urgency=medium
   * Remove obsolete fields Contact, Name from debian/upstream/metadata
     (already present in machine-readable debian/copyright).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 May 2020 10:22:30 -0700
+ -- Sandro Knauß <hefee@debian.org>  Tue, 26 May 2020 23:55:26 +0200
 
 extra-cmake-modules (5.69.0-1) experimental; urgency=medium
 
