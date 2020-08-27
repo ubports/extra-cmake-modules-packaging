@@ -1,2 +1,0 @@
-replace usr/share/nodejs/jquery/dist/jquery.js usr/share/doc/ECM/html/_static/jquery.js
-replace usr/share/javascript/underscore/underscore.js usr/share/doc/ECM/html/_static/underscore.js
