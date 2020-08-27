@@ -1,3 +1,9 @@
+extra-cmake-modules (5.70.0-1ubp1) xenial; urgency=medium
+
+  * New xenial backport
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Thu, 27 Aug 2020 23:50:45 +0200
+
 extra-cmake-modules (5.70.0-1) unstable; urgency=medium
 
   * Team upload.
