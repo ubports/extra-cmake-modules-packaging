@@ -1,5 +1,3 @@
 # Upstream has this toggled off by default for some reason.
 # We are not going to package it if upstream thinks it shouldn't be on by default :O
-- BUILD_QTHELP_DOCS , Generate QtHelp documentation for installed modules.
-- QCH , API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop):
-  series: xenial
+BUILD_QTHELP_DOCS
