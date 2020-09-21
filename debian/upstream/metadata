@@ -1,9 +1,7 @@
-Name: extra-cmake-modules
-Changelog: https://cgit.kde.org/extra-cmake-modules.git/log
-Contact: kde-frameworks-devel@kde.org
+Changelog: https://invent.kde.org/frameworks/extra-cmake-modules.git/log
 Donation: https://www.kde.org/community/donations/index.php
-Repository: https://anongit.kde.org/extra-cmake-modules.git
-Repository-Browse: https://cgit.kde.org/extra-cmake-modules.git
+Repository: https://invent.kde.org/frameworks/extra-cmake-modules.git
+Repository-Browse: https://invent.kde.org/frameworks/extra-cmake-modules.git
 Security-Contact: security@kde.org
 Bug-Database: https://bugs.kde.org/buglist.cgi?product=extra-cmake-modules&component=general
 Bug-Submit: https://bugs.kde.org/enter_bug.cgi?product=extra-cmake-modules
